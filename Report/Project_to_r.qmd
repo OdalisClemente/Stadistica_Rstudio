@@ -1,0 +1,25 @@
+---
+title: "Project to R"
+author: 
+  - name: "1"
+  - name: "2"
+  - name: "3"
+  - name: "4"
+  - name: "5"
+format: pdf
+number-sections: true
+bibliography: refs.bib
+margin: 1
+---
+
+# Introduction
+
+# Data
+
+# Methods
+
+# Results
+
+# Discussion
+
+# Conclusion
