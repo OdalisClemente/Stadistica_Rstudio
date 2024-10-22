@@ -12,11 +12,11 @@ bibliography: refs.bib
 margin: 1
 ---
 
-# Primera seccion
+# Introduction
 
-# Segunda seccion
+# Data
 
-# Tercera seccion
+# Methods
 
 # Cuarta seccion
 
