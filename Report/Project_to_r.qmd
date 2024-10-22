@@ -18,6 +18,8 @@ margin: 1
 
 # Methods
 
-# Cuarta seccion
+# Results
 
-# References
+# Discussion
+
+# Conclusion
