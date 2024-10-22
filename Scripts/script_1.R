@@ -127,5 +127,5 @@ prop.test(c(celos, no_celos),
           c(n_total_violencia, n_total_violencia), 
           alternative = "greater")
 
-#No hay evidencia suficente para rechazar H0.
+#No hay evidencia suficente para rechazar H0..
 
