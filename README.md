@@ -26,4 +26,5 @@
 #
 
 Introduction to Statistics & Introduction to R  
-**Instructor:** Daniel Sánchez, MA.
+**Instructor:** Daniel Sánchez, MA. 
+# 
