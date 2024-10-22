@@ -21,10 +21,7 @@
 ![alt text](Imagenes/image.png)
 #
 
-![alt text](image.png)
-
-#
-
 Introduction to Statistics & Introduction to R  
 **Instructor:** Daniel Sánchez, MA. 
 # 
+![alt text](Imagenes/image3.png)
