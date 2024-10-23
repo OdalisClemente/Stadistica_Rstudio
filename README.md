@@ -15,7 +15,7 @@
 
 #
 ### *Colaboradores* 
-*Ingrid, Jhanelly, Karen, Odalis, Alan, aqui todavia falta, yo lo arreglo*
+*Ingrid O., Jhanelly Ch., Karen O., Odalis Cl., Alan R.*
 #
 
 ![alt text](Imagenes/image.png)
