@@ -1,5 +1,5 @@
 #
-# *Proyecto Colaborativo; Violencia Contra Las Mujeres* 
+# *Proyecto Colaborativo: Análisis de la Violencia Contra las Mujeres.* 
 
 *La violencia de género es un fenómeno complejo que afecta a mujeres en distintas esferas de su vida, incluidas las relaciones interpersonales y el ámbito laboral (Casique & Castro, 2019).*
 # 
@@ -9,13 +9,13 @@
 
 #
 
-- [*Data, esto se debe modificar pero debe por el momento para acomodar el resto*](Data)
-- [*Introducción*]() 
-- [*Guia de investigación*]()
+- [*Informe*](Report)
+- [*Presentación*](Presentation) 
+- [*Scripts*](Scripts) 
 
 #
-### *Colaboradores* 
-*Ingrid O., Jhanelly Ch., Karen O., Odalis Cl., Alan R.*
+## *Colaboradores*
+### *Ingrid O., Jhanelly Ch., Karen O., Odalis Cl., Alan R.*
 #
 
 ![alt text](Imagenes/image.png)
