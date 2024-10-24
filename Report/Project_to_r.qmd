@@ -1,5 +1,5 @@
 ---
-title: "Análisis de la Violencia Contra las Mujeres"
+title: "Employment as a determinant of gender-based violence: the Ecuadorian case"
 author: 
   - name: "Ingrid O."
   - name: "Jhanelly Ch."
@@ -14,21 +14,44 @@ margin: 1
 ---
 
 # Introduction
+Violence against women is an issue that raises alarms in society, as it manifests itself in different ways and in different spaces. In Ecuador alone, during 2023, 277 women were victims of femicide, while the Gender Table of International Cooperation (MEGECI, 2023) reported that in 2019, 5,785,295 women were victims of some type of violence. These figures are alarming and encourage the search for the causes of this type of violence, in order to implement measures that contribute to its eradication.
+
+In an attempt to explain these causes, the relationship that may exist between employment and violence against women has been discussed, interpreting it as a complex cause that is influenced by cultural, psychological and social factors, since women victims of violence lack a safe environment that supports their access to employment and their work performance; in addition, employment can become an empowering factor for women, allowing them to overcome difficult personal situations and even break the cycle of violence (Sklavou et al., 2020).
+
+Following this same line, a study focused on the analysis of microdata from 35 countries located in different regions of Africa, Asia and Latin America, was able to establish that employment in women can be associated with an increase in violence by their partners, considering that it has a significant negative effect on domestic violence.  mainly in Latin America and East Africa (Khan & Klasen, 2018).
+
+It is important to note that, in the study of the relationship between employment and violence against women, there are two positions: the first, in which it is pointed out that a better economic status in women reduces violence and, the second, in which it is suggested that employment produces a reaction effect in which an increase in female empowerment can provoke violent reactions on the part of men (Bhalotra et al., 2021)
+
+With this background, the following research question arises: Is there a significant difference in the percentage of people who have suffered violence between those who have never worked and those who have been employed?
+
+It is important to inquire about this, since although there are alarming figures and statistical data, contextualizing the specific situation of Ecuador will allow us to establish whether employment reduces violence or increases it, since although there is research on the effects of employment on social and emotional well-being, few studies have focused on analyzing whether there is a significant difference in victimization between these two groups. In addition, understanding these patterns can provide relevant data for social organizations and public policies in the reduction of violence.
 
 # Data
+## Data source
+The data for this study is based on the Encuesta Nacional sobre Relaciones Familiares y Violencia de Género contra las Mujeres (ENVIGMU), a nationally representative survey conducted in 2019 by the Instituto Nacional de Estadísticas y Censos (INEC). This survey collects comprehensive data on violence against women in different spheres of life, including physical, psychological, sexual, and economic violence. The target population includes women aged 15 and older, and the data covers both lifetime experiences and those within the last 12 months.
+
+## Variables considered
+The main variables for this study are:
+- Dependent variable (experience of violence): this is categorized based on whether respondents have ever experienced physical, psychological, or sexual violence. The types of violence are reported across different settings, such as the workplace, family, and social environments.
+
+- Independent variable (work history): this variable divides respondents into two groups
+-- Women who have never worked.
+
+-- Women who have worked at some point in their lives.
+
+Additionally, the data allows for the analysis of other demographic control variables, such as age, education level, ethnicity, and geographic location, which can influence both the likelihood of being employed and the experience of violence.
+
+# Data usage 
+In this study, the data will be used to compare the percentage of women who have experienced violence between two groups: those who have never worked and those who have been employed. The analysis will involve the presentation of percentages for each group, showing the prevalence of violence in both categories.
+
+To determine whether there is a statistically significant difference between these two groups, hypothesis testing will be conducted. The hypothesis tests will assess whether the observed differences in violence rates are significant or could have occurred by chance. This method ensures that any identified disparities between the groups are robust and supported by statistical evidence.
+
+Additionally, the study will control for factors such as age, education, and geographic location, which could influence both employment status and experiences of violence. The results will provide a clear comparison, highlighting whether having worked or not is associated with a higher likelihood of experiencing violence.
+
 
 # Methods
-Este estudio emplea un enfoque transversal, basado en datos de la Encuesta Nacional sobre Relaciones Familiares de las Mujeres (ENVIGMU) de 2019 a nivel nacional. ENREFAM es una encuesta por muestreo a hogares, dirigida a las mujeres que tengan 15 años de edad o más, sin importar su estado civil o si han tenido o no una relación de pareja, que residan habitualmente en las viviendas seleccionadas en la muestra, incluidas las regiones de la Selva Amazónica y Galápagos.
-
-Diseñada, organizada y ejecutada por el departamento de Estadística Sociodemográficas del Instituto Nacional de Estadística y Censos (INEC), la encuesta tuvo como objetivo centrarse en varios aspectos evaluando la prevalencia, incidencia y magnitud de los distintos tipos de violencia de género (física, psicológica, sexual, patrimonial) que sufren o han sufrido las mujeres. incluyendo características demográficas, tanto en el ámbito público (escolar, laboral y social) como en el privado (hogar, familia, relación de pareja) entre aproximadamente 19161 mujeres entre julio y agosto de 2019. El INEC empleó un método de muestreo probabilístico trietápico, tres etapas de selección, la primera etapa fue la selección aleatoria de Unidades Primarias de Muestreo (UPM) por estrato, la segunda etapa fue la selección de 8 viviendas ocupadas dentro de cada uno de los UPM seleccionadas en la primera etapa, y en la última etapa se realizó la selección de una mujer de 15 años y más dentro del hogar. Los datos utilizados para el estudio están disponibles gratuitamente para el público, por lo tanto, no requirió la aprobación del Comité de Revisión Institucional (IRB).
-
 ## Participants
-El presente estudio se centró en mujeres de 15 años o más que respondieron las preguntas que permitan evaluar violencia contra la mujer para poder determinar sí existe una diferencia entre la proporción de mujeres que trabajan y no trabajan, ligadas a que hayan sufrido algún tipo de violencia doméstica. 
-
-## Variables and measure ment
-Variable de resultado:
-
-Variable predictora: 
+The present study focused on women aged 15 and older who answered questions assessing violence against women, in order to determine whether there is a difference between the proportion of women who work and those who do not work, related to whether they have suffered some form of domestic violence.
 
 ## Study size and missing data
 En el presente estudio, la muestra inicial estuvo conformada por 19161 mujeres de 15 años o más provenientes de 24 provincias del Ecuador continental (incluida información de las provincias amazónicas e insular). Del conjunto de variables utilizadas para evaluar la diferencia entre la proporción de mujeres que trabajan o no, y sí ha sufrió algún tipo de violencia domestica se eliminaron [___], debido a que los participantes seleccionaron como respuesta “no sé o no recuerdo”.
