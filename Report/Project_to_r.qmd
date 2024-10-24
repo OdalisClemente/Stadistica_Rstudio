@@ -32,12 +32,14 @@ The data for this study is based on the Encuesta Nacional sobre Relaciones Famil
 
 ## Variables considered
 The main variables for this study are:
+
 - Dependent variable (experience of violence): this is categorized based on whether respondents have ever experienced physical, psychological, or sexual violence. The types of violence are reported across different settings, such as the workplace, family, and social environments.
 
-- Independent variable (work history): this variable divides respondents into two groups
--- Women who have never worked.
+- Independent variable (work history): this variable divides respondents into two groups.
 
--- Women who have worked at some point in their lives.
+    - Women who have never worked.
+
+    - Women who have worked at some point in their lives.
 
 Additionally, the data allows for the analysis of other demographic control variables, such as age, education level, ethnicity, and geographic location, which can influence both the likelihood of being employed and the experience of violence.
 
