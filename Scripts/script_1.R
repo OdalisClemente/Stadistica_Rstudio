@@ -53,15 +53,15 @@ data_study <- envigmu %>% select(id_per,starts_with("f2_s7a_14"), f2_s3a_1,f2_s7
     f2_s7b_19_7==2~0)
   )
 
-
-
 # Prueba de proporciones 1---------------------------------------------------
 
-# H0: No hay diferencia entre la proporcion de las mujeres casadas que han sufrido 
-# violencia que trabajan vs las que no trabajan 
-# H1: Si existe diferencia entre la proporcion de las mujeres casadas que han 
-# sufrido violencia que trabajan vs las que no trabajan 
+# H0: La proporción de mujeres casadas que han sufrido violencia es igual
+# entre las que trabajan y las que no trabajan
+# H1: La proporción de mujeres casadas que han sufrido violencia es diferente
+# entre las que trabajan y las que no trabjan
+
 # Se calcula el número de mujeres que han sufrido violencia en cada grupo
+
 si_trabajo <- sum(data_study$trabajo == 1)  # Total de mujeres que trabajan
 no_trabajo <- sum(data_study$trabajo == 0)  # Total de mujeres que no trabajan
 
@@ -69,16 +69,17 @@ n_violencia_trabajo <- sum(data_study$trabajo == 1 & data_study$violencia == 1) 
 n_violencia_no_trabajo <- sum(data_study$trabajo == 0 & data_study$violencia == 1)  # Mujeres que no trabajan y han sufrido violencia
 
 # Realizar la prueba de proporciones
+
 resultado_proporciones <- prop.test(c(n_violencia_trabajo, n_violencia_no_trabajo), 
                                     c(si_trabajo, no_trabajo), 
                                     alternative = "two.sided")
 
 # Resultado de la prueba de proporciones
+
 print(resultado_proporciones)
 
-# De los resultados de la hipótesis se obtuvo que si hay una diferencia 
-# significativa entre las mujeres casadas que han sufrido violencia que sí
-# trabajan vs las que no trabajan
+# Se rechaza la HO: Existe diferencia significativa entre las mujeres casadas que han sufrido
+# violencia y que trabajan vs las que no trabajan
 
 # Prueba de proporciones 2------------------------------------------------------
 
