@@ -6,12 +6,13 @@ author:
   - name: "Karen O."
   - name: "Odalis Cl."
   - name: "Alan D."
-abstract: Resumen del documento
 format: pdf
 number-sections: true
 bibliography: refs.bib
 margin: 1
 ---
+
+**GitHub repository**: [https://github.com/OdalisClemente/Stadistica_Rstudio](https://github.com/OdalisClemente/Stadistica_Rstudio) 
 
 # Introduction
 Violence against women is an issue that raises alarms in society, as it manifests itself in different ways and in different spaces. In Ecuador alone, during 2023, 277 women were victims of femicide, while the Gender Table of International Cooperation (MEGECI, 2023) reported that in 2019, 5,785,295 women were victims of some type of violence. These figures are alarming and encourage the search for the causes of this type of violence, in order to implement measures that contribute to its eradication.
