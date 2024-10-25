@@ -59,8 +59,110 @@ The present study focused on women aged 15 and older who answered questions asse
 En el presente estudio, la muestra inicial estuvo conformada por 19161 mujeres de 15 años o más provenientes de 24 provincias del Ecuador continental (incluida información de las provincias amazónicas e insular). Del conjunto de variables utilizadas para evaluar la diferencia entre la proporción de mujeres que trabajan o no, y sí ha sufrió algún tipo de violencia domestica se eliminaron [___], debido a que los participantes seleccionaron como respuesta “no sé o no recuerdo”.
 
 ## Stadistical methods
+Para el evaluación de los resultados se aplicaron diversos métodos de pruebas de hipótesis como enfoque estadístico para facilitar la toma de decisiones respecto a la veracidad de afirmaciones sobre una población a partir de datos muestrales.
+
+El proceso de contraste de hipótesis se basó en la formulación de dos hipótesis opuestas:
+
+- **Hipótesis nula ($H_0$):** Es una afirmación que sostiene que no existe una diferencia significativa o efecto entre los grupos o variables analizados. Cualquier diferencia observada se debe al azar o a variaciones muestrales. En términos simples, la hipótesis nula propone que no hay un cambio o relación significativa en el contexto del estudio. Se plantea para ser refutada o aceptada en función de los datos obtenidos. Como señala Levine et al. (2017), "la hipótesis nula establece que no hay diferencia o que el efecto es igual a cero."
+
+- **Hipótesis alternativa ($H_1$):** Es la afirmación contraria a la hipótesis nula, sosteniendo que existe una diferencia significativa o un efecto en las variables analizadas. La hipótesis alternativa se acepta si los datos proporcionan suficiente evidencia en contra de la hipótesis nula. Según Montgomery (2019), "la hipótesis alternativa refleja la existencia de un efecto o diferencia significativa en el estudio."
+
+Para el análisis, se empleó la prueba estadística de proporciones, la cual permite comparar proporciones observadas en una muestra con el fin de contrastar proporciones entre dos o más grupos. Esta prueba es particularmente útil para estudiar tendencias de variables categóricas que dividen a la población en diferentes categorías. Su objetivo es evaluar si las proporciones observadas difieren significativamente de lo esperado bajo la hipótesis nula.
+
+Este enfoque es fundamental para determinar si las diferencias observadas tienen relevancia estadística o si son atribuibles al azar, fortaleciendo así la interpretación de los resultados.
+
+En este estudio, se crearon dos variables que almacenan el total de mujeres que trabajan y el total de mujeres que no trabajan en la muestra. Adicionalmente, se crearon dos variables adicionales para registrar el total de mujeres que trabajan y han sufrido violencia, y otro conjunto para las mujeres que no trabajan y han sufrido violencia.
 
 # Results
+Con las variables creadas que contienen los valores de totales de la muestra seleccionada, se procedió a realizar pruebas de proporciones para comparar la diferencia entre las mujeres que trabajan o no, y si han sufrido violencia o no. A continuación, se describen los resultados de las pruebas de hipótesis realizadas:
+
+## Primera Prueba de Proporciones
+
+**Prueba de hipótesis:**
+
+- $H_0$: La proporción de mujeres casadas que han sufrido violencia es igual entre las que trabajan y las que no trabajan.
+
+- $H_1$: La proporción de mujeres casadas que han sufrido violencia es diferente entre las que trabajan y las que no trabajan.
+
+**Resultado de la prueba estadística:**
+
+| Parámetro                  | Valor       |
+|----------------------------|-------------|
+| X-squared                   | _36.045_      |
+| Grados de libertad (df)     | _1_           |
+| Valor p (p-value)           | _1.928e-09_   |
+| Hipótesis alternativa       | _two.sided_  |
+| Intervalo de confianza (95%)| _0.03905297_ - _0.07709635_ |
+| Prop. mujeres que trabajan  | _0.4491349_  |
+| Prop. mujeres que no trabajan| _0.3910603_  |
+
+Existe evidencia estadística significativa para rechazar $H_0$, ya que se observa una diferencia significativa entre las mujeres casadas que han sufrido violencia y trabajan, frente a las que no trabajan.
+
+## Segunda Prueba de Proporciones
+
+**Prueba de hipótesis:**
+
+- $H_0$: No hay diferencia entre la proporción de mujeres casadas que han sufrido violencia que trabajan y las que no trabajan.
+
+- $H_1$: La proporción de mujeres casadas que han sufrido violencia y trabajan es mayor que la proporción de mujeres que no trabajan.
+
+**Resultado de la prueba estadística:**
+
+| Parámetro                  | Valor       |
+|----------------------------|-------------|
+| X-squared                   | _36.045_      |
+| Grados de libertad (df)     | _1_           |
+| Valor p (p-value)           | _9.64e-10_    |
+| Hipótesis alternativa       | _greater_       |
+| Intervalo de confianza (95%)| _0.04208053_ - _1.00000000_ |
+| Prop. mujeres que trabajan  | _0.4491349_   |
+| Prop. mujeres que no trabajan| _0.3910603_  |
+
+Existe evidencia estadística significativa para rechazar $H_0$, lo que indica que la proporción de mujeres casadas que han sufrido violencia y trabajan es mayor que la de aquellas que no trabajan.
+
+## Tercera Prueba de Proporciones
+
+**Prueba de hipótesis:**
+
+- $H_0$: No hay diferencia en la proporción de mujeres que creen que el maltrato fue debido a celos frente a las que no lo creen.
+
+- $H_1$: Hay una diferencia en la proporción de mujeres que creen que el maltrato fue debido a celos frente a las que no lo creen.
+
+**Resultado de la prueba estadística:**
+
+| Parámetro                  | Valor       |
+|----------------------------|-------------|
+| X-squared                   | _59.842_      |
+| Grados de libertad (df)     | _1_           |
+| Valor p (p-value)           | _1.028e-14_   |
+| Hipótesis alternativa       | _greater_       |
+| Intervalo de confianza (95%)| _-0.10284102 - _-0.06110805_ |
+| Prop. mujeres que trabajan  | _0.4587894_     |
+| Prop. mujeres que no trabajan| _0.5407639_    |
+
+Los resultados muestran que no hay evidencia estadística suficiente para rechazar $H_0$; por lo tanto, no se puede afirmar que exista una diferencia significativa en la proporción de mujeres que creen que el maltrato fue debido a celos frente a las que no lo creen.
+
+## Cuarta Prueba de Proporciones
+
+**Prueba de hipótesis:**
+
+- $H_0$: No hay diferencia en la proporción de mujeres que creen que el maltrato fue debido a celos frente a las que no lo creen.
+
+- $H_1$: La proporción de mujeres que creen que el maltrato fue debido a celos es mayor que las que no lo creen.
+
+**Resultado de la prueba estadística:**
+
+| Parámetro                  | Valor       |
+|----------------------------|-------------|
+| X-squared                   | _59.842_      |
+| Grados de libertad (df)     | _1_           |
+| Valor p (p-value)           | _1.028e-14_   |
+| Hipótesis alternativa       | _greater_       |
+| Intervalo de confianza (95%)| _-0.09952215_ - _1.00000000_ |
+| Prop. mujeres que trabajan  | _0.4587894_      |
+| Prop. mujeres que no trabajan| _0.5407639_     |
+
+No hay evidencia estadística significativa para rechazar $H_0$, lo que sugiere que no existe una diferencia en la proporción de mujeres que creen que el maltrato fue debido a celos frente a las que no lo creen.
 
 # Discussion
 
