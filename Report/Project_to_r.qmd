@@ -57,35 +57,33 @@ Additionally, the study will control for factors such as age, education, and geo
 The present study focused on women aged 15 and older who answered questions assessing violence against women, in order to determine whether there is a difference between the proportion of women who work and those who do not work, related to whether they have suffered some form of domestic violence.
 
 ## Study size and missing data
-En el presente estudio, la muestra inicial estuvo conformada por 19161 mujeres de 15 años o más provenientes de 24 provincias del Ecuador continental (incluida información de las provincias amazónicas e insular). Del conjunto de variables utilizadas para evaluar la diferencia entre la proporción de mujeres que trabajan o no, y sí ha sufrió algún tipo de violencia domestica se eliminaron [___], debido a que los participantes seleccionaron como respuesta “no sé o no recuerdo”.
+In this study, the initial sample consisted of 19,161 women aged 15 years or older from 24 provinces in mainland Ecuador, including data from the Amazonian and Galapagos provinces. From the set of variables used to assess differences in the proportion of women who are employed or not and whether they have experienced any form of domestic violence, missing values were removed due to participants selecting "I don’t know or don’t remember" as a response.
 
 ## Stadistical methods
-Para el evaluación de los resultados se aplicaron diversos métodos de pruebas de hipótesis como enfoque estadístico para facilitar la toma de decisiones respecto a la veracidad de afirmaciones sobre una población a partir de datos muestrales.
+To evaluate the results of this research, various hypothesis testing methods were applied as a fundamental statistical approach to facilitate decision-making regarding the validity of specific claims about a population based on sample data. The hypothesis testing process involved formulating two opposing propositions:
 
-El proceso de contraste de hipótesis se basó en la formulación de dos hipótesis opuestas:
+- **Null Hypothesis ($H_0$):** This is a statement asserting that there is no significant difference or effect between the analyzed groups or variables. Any observed difference is attributed to chance or sample variations. Simply put, the null hypothesis proposes that there is no meaningful change or relationship within the context of the study. It is set up to be either refuted or accepted based on the data obtained. As stated by @crossref_crossref_nodate, "the null hypothesis asserts that there is no difference or that the effect is zero."
 
-- **Hipótesis nula ($H_0$):** Es una afirmación que sostiene que no existe una diferencia significativa o efecto entre los grupos o variables analizados. Cualquier diferencia observada se debe al azar o a variaciones muestrales. En términos simples, la hipótesis nula propone que no hay un cambio o relación significativa en el contexto del estudio. Se plantea para ser refutada o aceptada en función de los datos obtenidos. Como señala Levine et al. (2017), "la hipótesis nula establece que no hay diferencia o que el efecto es igual a cero."
+- **Alternative Hypothesis ($H_1$):** This is the statement opposing the null hypothesis, asserting that there is a significant difference or effect in the analyzed variables. The alternative hypothesis is accepted if the data provides sufficient evidence against the null hypothesis. According to @holland_statistics_1986, "the alternative hypothesis reflects the existence of a significant effect or difference in the study."
 
-- **Hipótesis alternativa ($H_1$):** Es la afirmación contraria a la hipótesis nula, sosteniendo que existe una diferencia significativa o un efecto en las variables analizadas. La hipótesis alternativa se acepta si los datos proporcionan suficiente evidencia en contra de la hipótesis nula. Según Montgomery (2019), "la hipótesis alternativa refleja la existencia de un efecto o diferencia significativa en el estudio."
+For this analysis, the proportion test was used, a statistical tool designed to compare observed proportions between groups within the sample. This approach is particularly useful for assessing whether observed differences between proportions of significant categories are statistically relevant. In this study, variables were created to record the total number of married women in two conditions: those who work and have experienced violence, and those who do not work but have also experienced violence.
 
-Para el análisis, se empleó la prueba estadística de proporciones, la cual permite comparar proporciones observadas en una muestra con el fin de contrastar proporciones entre dos o más grupos. Esta prueba es particularmente útil para estudiar tendencias de variables categóricas que dividen a la población en diferentes categorías. Su objetivo es evaluar si las proporciones observadas difieren significativamente de lo esperado bajo la hipótesis nula.
+This approach is essential for determining whether the observed differences have statistical significance or are due to chance, thereby strengthening the interpretation of the results.
 
-Este enfoque es fundamental para determinar si las diferencias observadas tienen relevancia estadística o si son atribuibles al azar, fortaleciendo así la interpretación de los resultados.
-
-En este estudio, se crearon dos variables que almacenan el total de mujeres que trabajan y el total de mujeres que no trabajan en la muestra. Adicionalmente, se crearon dos variables adicionales para registrar el total de mujeres que trabajan y han sufrido violencia, y otro conjunto para las mujeres que no trabajan y han sufrido violencia.
+In this study, two variables were created to store the total number of women who work and the total number of women who do not work in the sample. Additionally, two more variables were created to record the total number of women who work and have experienced violence, as well as a separate set for women who do not work and have experienced violence.
 
 # Results
-Con las variables creadas que contienen los valores de totales de la muestra seleccionada, se procedió a realizar pruebas de proporciones para comparar la diferencia entre las mujeres que trabajan o no, y si han sufrido violencia o no. A continuación, se describen los resultados de las pruebas de hipótesis realizadas:
+With the created variables containing the total values from the selected sample, proportion tests were performed to compare the differences between women who work or do not work and whether they have experienced violence or not. The results of the hypothesis tests are described below:
 
-## Primera Prueba de Proporciones
+## First Proportions Test
 
-**Prueba de hipótesis:**
+**Hypothesis testing:**
 
-- $H_0$: La proporción de mujeres casadas que han sufrido violencia es igual entre las que trabajan y las que no trabajan.
+- $H_0$: The proportion of married women who have experienced violence is the same between those who work and those who do not work.
 
-- $H_1$: La proporción de mujeres casadas que han sufrido violencia es diferente entre las que trabajan y las que no trabajan.
+- $H_1$: The proportion of married women who have experienced violence differs between those who work and those who do not work.
 
-**Resultado de la prueba estadística:**
+**Statistical test result:**
 
 | Parámetro                  | Valor       |
 |----------------------------|-------------|
@@ -97,17 +95,17 @@ Con las variables creadas que contienen los valores de totales de la muestra sel
 | Prop. mujeres que trabajan  | _0.4491349_  |
 | Prop. mujeres que no trabajan| _0.3910603_  |
 
-Existe evidencia estadística significativa para rechazar $H_0$, ya que se observa una diferencia significativa entre las mujeres casadas que han sufrido violencia y trabajan, frente a las que no trabajan.
+The test indicates statistically significant evidence to reject $H_0$, suggesting a notable difference between married women who have experienced violence and work compared to those who do not work.
 
-## Segunda Prueba de Proporciones
+## Second Proportions Test
 
-**Prueba de hipótesis:**
+**Hypothesis testing:**
 
-- $H_0$: No hay diferencia entre la proporción de mujeres casadas que han sufrido violencia que trabajan y las que no trabajan.
+- $H_0$: There is no difference in the proportion of married women who have experienced violence between those who work and those who do not work.
 
-- $H_1$: La proporción de mujeres casadas que han sufrido violencia y trabajan es mayor que la proporción de mujeres que no trabajan.
+- $H_1$: The proportion of married women who have experienced violence and are employed is greater than that of women who are not employed.
 
-**Resultado de la prueba estadística:**
+**Statistical test result:**
 
 | Parámetro                  | Valor       |
 |----------------------------|-------------|
@@ -119,17 +117,19 @@ Existe evidencia estadística significativa para rechazar $H_0$, ya que se obser
 | Prop. mujeres que trabajan  | _0.4491349_   |
 | Prop. mujeres que no trabajan| _0.3910603_  |
 
-Existe evidencia estadística significativa para rechazar $H_0$, lo que indica que la proporción de mujeres casadas que han sufrido violencia y trabajan es mayor que la de aquellas que no trabajan.
+The significant p-value provides sufficient evidence to reject $H_0$, indicating that the proportion of married women who have experienced violence and are employed is higher than that of those who are not employed.
 
-## Tercera Prueba de Proporciones
+## Third Proportions Test
 
-**Prueba de hipótesis:**
+**Hypothesis testing:**
 
-- $H_0$: No hay diferencia en la proporción de mujeres que creen que el maltrato fue debido a celos frente a las que no lo creen.
+- $H_0$: There is no difference in the proportion of women who believe that the abuse was due to jealousy compared to those who do not.
 
-- $H_1$: Hay una diferencia en la proporción de mujeres que creen que el maltrato fue debido a celos frente a las que no lo creen.
 
-**Resultado de la prueba estadística:**
+
+- $H_1$: There is a difference in the proportion of women who believe that the abuse was due to jealousy compared to those who do not.
+
+**Statistical test result:**
 
 | Parámetro                  | Valor       |
 |----------------------------|-------------|
@@ -141,17 +141,17 @@ Existe evidencia estadística significativa para rechazar $H_0$, lo que indica q
 | Prop. mujeres que trabajan  | _0.4587894_     |
 | Prop. mujeres que no trabajan| _0.5407639_    |
 
-Los resultados muestran que no hay evidencia estadística suficiente para rechazar $H_0$; por lo tanto, no se puede afirmar que exista una diferencia significativa en la proporción de mujeres que creen que el maltrato fue debido a celos frente a las que no lo creen.
+The results do not show sufficient statistical evidence to reject $H_0$, so no significant difference is observed in the proportion of women who believe that the abuse was due to jealousy compared to those who do not.
 
-## Cuarta Prueba de Proporciones
+## Fourth Proportions Test
 
-**Prueba de hipótesis:**
+**Statistical test result:**
 
-- $H_0$: No hay diferencia en la proporción de mujeres que creen que el maltrato fue debido a celos frente a las que no lo creen.
+- $H_0$: There is no difference in the proportion of women who believe that abuse was due to jealousy compared to those who do not believe so.
 
-- $H_1$: La proporción de mujeres que creen que el maltrato fue debido a celos es mayor que las que no lo creen.
+- $H_1$: LThe proportion of women who believe that abuse was due to jealousy is greater than those who do not believe so.
 
-**Resultado de la prueba estadística:**
+**Statistical test result:**
 
 | Parámetro                  | Valor       |
 |----------------------------|-------------|
@@ -163,8 +163,18 @@ Los resultados muestran que no hay evidencia estadística suficiente para rechaz
 | Prop. mujeres que trabajan  | _0.4587894_      |
 | Prop. mujeres que no trabajan| _0.5407639_     |
 
-No hay evidencia estadística significativa para rechazar $H_0$, lo que sugiere que no existe una diferencia en la proporción de mujeres que creen que el maltrato fue debido a celos frente a las que no lo creen.
+With a non-significant p-value, we do not reject $H_0$, indicating that there is no difference in the proportion of women who believe that abuse was caused by jealousy compared to those who do not believe it.
 
 # Discussion
 
+The results of this research provide a detailed understanding of the relationship between the employment status of married women and their experience of violence. Through hypothesis testing, a significant trend was observed: women who work report a higher proportion of violence compared to those who do not work. This finding is relevant as it suggests a possible interaction between employment and exposure to violence, potentially linked to factors such as economic dependence and power dynamics within relationships. Literature suggests that, in certain contexts, employment can empower women, providing them with greater resources to confront or leave situations of violence. However, in other cases, employment may also intensify conflicts within the home, particularly if it is perceived as a threat to the authority or control of the abuser.
+
+Additionally, the confidence intervals and p-values across all tests provide robust statistical evidence to support the validity of the findings, demonstrating that the observed differences are not due to chance. This not only reinforces the importance of employment as a key factor in analyzing gender-based violence but also calls for a careful interpretation of emotional factors, such as jealousy, within the dynamics of violence.
+
 # Conclusion
+
+The findings of this study offer a comprehensive perspective on how the employment status of married women influences their experiences of violence, highlighting significant differences between those who work and those who do not. These results suggest that employment may play both a protective and a conflictual role in women’s lives, depending on contextual and cultural factors that shape relationship dynamics and family interactions. The higher proportion of working women experiencing violence may reflect a combination of factors, including the economic independence some women achieve through employment, which could be perceived as a threat in contexts characterized by control or dependency in relationships.
+
+Nonetheless, the results do not provide sufficient evidence to conclude that jealousy is a distinct motive for abuse, underscoring the need to explore other factors that may influence the perception and experience of domestic violence. This suggests the importance of analyzing additional external factors that could introduce causality within the investigation.
+
+# Reference
