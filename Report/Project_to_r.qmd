@@ -15,6 +15,7 @@ margin: 1
 **GitHub repository**: [https://github.com/OdalisClemente/Stadistica_Rstudio](https://github.com/OdalisClemente/Stadistica_Rstudio) 
 
 # Introduction
+
 Violence against women is an issue that raises alarms in society, as it manifests itself in different ways and in different spaces. In Ecuador alone, during 2023, 277 women were victims of femicide, while the Gender Table of International Cooperation @MEGECI2023 reported that in 2019, 5,785,295 women were victims of some type of violence. These figures are alarming and encourage the search for the causes of this type of violence, in order to implement measures that contribute to its eradication.
 
 In an attempt to explain these causes, the relationship that may exist between employment and violence against women has been discussed, interpreting it as a complex cause that is influenced by cultural, psychological and social factors, since women victims of violence lack a safe environment that supports their access to employment and their work performance; in addition, employment can become an empowering factor for women, allowing them to overcome difficult personal situations and even break the cycle of violence @Sklavou2020.
@@ -23,15 +24,36 @@ Following this same line, a study focused on the analysis of microdata from 35 c
 
 It is important to note that, in the study of the relationship between employment and violence against women, there are two positions: the first, in which it is pointed out that a better economic status in women reduces violence and, the second, in which it is suggested that employment produces a reaction effect in which an increase in female empowerment can provoke violent reactions on the part of men @Bhalotra2021.
 
-With this background, the following research question arises: Is there a significant difference in the percentage of people who have suffered violence between those who have never worked and those who have been employed?
+On the other hand, another problem of gender violence can be jealousy, since it is known that aggressive and violent men with their partners often manifest pathological jealousy, which can lead to conflicts and violence towards their partner. It is pointed out that this jealousy can arise from unfounded perceptions that the woman intends to leave the relationship. In addition, underlying emotions in romantic jealousy are identified, such as resentment, guilt, and low self-esteem, which can generate maladaptive behaviors and increase the likelihood of conflict situations and control behaviors @Maceira2024.
+
+@Granda2022 agree in finding in their study that there is a significant relationship between jealousy and violence in couples. It is mentioned that jealousy can be perceived as an established factor in the relationship, which can be linked to a conception of hostile sexism. Although jealousy is not always recognized as a form of violence, it can manifest itself through controlling behaviors that are not so evident; Jealousy is often justified as a sign of love, but in reality, it can cover up forms of control and violence implicit in the relationship  
+
+With this background, the following research question arises: 
+
+How does employment influence the likelihood of experiencing violence within marriage? How is jealousy associated with the prevalence and perception of abuse in women in intimate relationships?
 
 It is important to inquire about this, since although there are alarming figures and statistical data, contextualizing the specific situation of Ecuador will allow us to establish whether employment reduces violence or increases it, since although there is research on the effects of employment on social and emotional well-being, few studies have focused on analyzing whether there is a significant difference in victimization between these two groups. In addition, understanding these patterns can provide relevant data for social organizations and public policies in the reduction of violence.
 
+In addition, the research question on jealousy is relevant because jealousy represents a psychological and emotional factor that can trigger or justify violent attitudes in relationships. Therefore, understanding how jealousy affects the perception and prevalence of abuse makes this aspect visible as a possible trigger of violence, which can guide the creation of intervention and education programs to prevent possessive or violent attitudes within couple relationships.
+
 # Data
 ## Data source
+
 The data for this study is based on the Encuesta Nacional sobre Relaciones Familiares y Violencia de Género contra las Mujeres (ENVIGMU), a nationally representative survey conducted in 2019 by the Instituto Nacional de Estadísticas y Censos (INEC). This survey collects comprehensive data on violence against women in different spheres of life, including physical, psychological, sexual, and economic violence. The target population includes women aged 15 and older, and the data covers both lifetime experiences and those within the last 12 months.
 
-## Variables considered
+## Data Collection Method
+
+The ENVIGMU 2019 survey was conducted through a probabilistic sampling method, involving 20,848 households across both urban and rural areas of Ecuador. The survey includes detailed sections that examine the prevalence of violence in various settings, including educational, labor, social, familial, and intimate partner domains.
+
+# Methods
+## Participants
+
+The present study focused on women aged 15 and older who answered questions assessing violence against women, in order to determine whether there is a difference between the proportion of women who work and those who do not work, related to whether they have suffered some form of domestic violence.
+
+## Study size and missing data
+
+In this study, the initial sample consisted of 19,161 women aged 15 years or older from 24 provinces in mainland Ecuador, including data from the Amazonian and Galapagos provinces. From the set of variables used to assess differences in the proportion of women who are employed or not and whether they have experienced any form of domestic violence, missing values were removed due to participants selecting "I don’t know or don’t remember" as a response.
+
 The main variables for this study are:
 
 - Dependent variable (experience of violence): this is categorized based on whether respondents have ever experienced physical, psychological, or sexual violence. The types of violence are reported across different settings, such as the workplace, family, and social environments.
@@ -42,24 +64,8 @@ The main variables for this study are:
 
     - Women who have worked at some point in their lives.
 
-Additionally, the data allows for the analysis of other demographic control variables, such as age, education level, ethnicity, and geographic location, which can influence both the likelihood of being employed and the experience of violence.
-
-# Data usage 
-In this study, the data will be used to compare the percentage of women who have experienced violence between two groups: those who have never worked and those who have been employed. The analysis will involve the presentation of percentages for each group, showing the prevalence of violence in both categories.
-
-To determine whether there is a statistically significant difference between these two groups, hypothesis testing will be conducted. The hypothesis tests will assess whether the observed differences in violence rates are significant or could have occurred by chance. This method ensures that any identified disparities between the groups are robust and supported by statistical evidence.
-
-Additionally, the study will control for factors such as age, education, and geographic location, which could influence both employment status and experiences of violence. The results will provide a clear comparison, highlighting whether having worked or not is associated with a higher likelihood of experiencing violence.
-
-
-# Methods
-## Participants
-The present study focused on women aged 15 and older who answered questions assessing violence against women, in order to determine whether there is a difference between the proportion of women who work and those who do not work, related to whether they have suffered some form of domestic violence.
-
-## Study size and missing data
-In this study, the initial sample consisted of 19,161 women aged 15 years or older from 24 provinces in mainland Ecuador, including data from the Amazonian and Galapagos provinces. From the set of variables used to assess differences in the proportion of women who are employed or not and whether they have experienced any form of domestic violence, missing values were removed due to participants selecting "I don’t know or don’t remember" as a response.
-
 ## Stadistical methods
+
 To evaluate the results of this research, various hypothesis testing methods were applied as a fundamental statistical approach to facilitate decision-making regarding the validity of specific claims about a population based on sample data. The hypothesis testing process involved formulating two opposing propositions:
 
 - **Null Hypothesis ($H_0$):** This is a statement asserting that there is no significant difference or effect between the analyzed groups or variables. Any observed difference is attributed to chance or sample variations. Simply put, the null hypothesis proposes that there is no meaningful change or relationship within the context of the study. It is set up to be either refuted or accepted based on the data obtained. As stated by @crossref_crossref_nodate, "the null hypothesis asserts that there is no difference or that the effect is zero."
@@ -73,6 +79,7 @@ This approach is essential for determining whether the observed differences have
 In this study, two variables were created to store the total number of women who work and the total number of women who do not work in the sample. Additionally, two more variables were created to record the total number of women who work and have experienced violence, as well as a separate set for women who do not work and have experienced violence.
 
 # Results
+
 With the created variables containing the total values from the selected sample, proportion tests were performed to compare the differences between women who work or do not work and whether they have experienced violence or not. The results of the hypothesis tests are described below:
 
 ## First Proportions Test
@@ -124,8 +131,6 @@ The significant p-value provides sufficient evidence to reject $H_0$, indicating
 **Hypothesis testing:**
 
 - $H_0$: There is no difference in the proportion of women who believe that the abuse was due to jealousy compared to those who do not.
-
-
 
 - $H_1$: There is a difference in the proportion of women who believe that the abuse was due to jealousy compared to those who do not.
 
